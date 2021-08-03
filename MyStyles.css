@@ -8,14 +8,17 @@
 }
 .leftC {
     font-size: x-small;
+    border-right: solid;
+    border-color:rgb(61, 61, 61);
     float: left;
-    height: 1000px;
+    height: 980px;
     width: auto;
     padding: 15px;
 }
 .rightC {
+    font-family: Arial, Helvetica, sans-serif;
     text-align:left;
-    font-size: xx-large;
+    font-size: x-large;
     width: auto;
     height: auto;
     float: center;
@@ -23,15 +26,17 @@
 }
 .lowRC {
     height: auto;
-    padding-left: 20%;
+    padding-left: 30%;
     margin-bottom: 10%;
 }
 .footer {
     position: relative;
-    top: 0;
-    bottom: 0;
     background-color: rgb(61, 61, 61);
     color: rgb(231, 231, 231);
-    padding: 10px;
+    padding: 25px;
     text-align: center;
+}
+span.mycitation {
+    font-weight: 900;
+    font-style: italic;
 }

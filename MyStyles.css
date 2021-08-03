@@ -1,20 +1,17 @@
-* {
-    box-sizing: border-box;
-}
-body {
-    margin: 0;
-    background-color: black;
-}
 .header {
     padding: 20px; 
     text-align: center;
     background-color:rgb(61, 61, 61);
     color: rgb(231, 231, 231);
 }
-.main {
-    background-color: rgb(0, 0, 0);
-    color: rgb(231, 231, 231);
-    height: 1200px;
+.leftC {
+    width: 50%;
+    padding: 10px;
+}
+.rightC {
+    text-align:left;
+    width: 50%;
+    height: 600px;
     float: center;
     padding-left: 33%; 
 }

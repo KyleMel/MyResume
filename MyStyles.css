@@ -1,21 +1,35 @@
 .header {
-    padding: 20px; 
-    text-align: center;
-    background-color:rgb(61, 61, 61);
+    background-color: rgb(61, 61, 61);
     color: rgb(231, 231, 231);
+    text-align: center;
+    padding: 10px;
+    height: 100px;
+    width: 100%;
 }
 .leftC {
-    width: 50%;
-    padding: 10px;
+    font-size: x-small;
+    float: left;
+    height: 1000px;
+    width: auto;
+    padding: 15px;
 }
 .rightC {
     text-align:left;
-    width: 50%;
-    height: 600px;
+    font-size: xx-large;
+    width: auto;
+    height: auto;
     float: center;
-    padding-left: 33%; 
+    padding-left: 28%;
+}
+.lowRC {
+    height: auto;
+    padding-left: 20%;
+    margin-bottom: 10%;
 }
 .footer {
+    position: relative;
+    top: 0;
+    bottom: 0;
     background-color: rgb(61, 61, 61);
     color: rgb(231, 231, 231);
     padding: 10px;

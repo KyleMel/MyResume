@@ -1,4 +1,26 @@
+* {
+    box-sizing: border-box;
+}
 body {
+    margin: 0;
     background-color: black;
-    color: white;
+}
+.header {
+    padding: 20px; 
+    text-align: center;
+    background-color:rgb(61, 61, 61);
+    color: rgb(231, 231, 231);
+}
+.main {
+    background-color: rgb(0, 0, 0);
+    color: rgb(231, 231, 231);
+    height: 1200px;
+    float: center;
+    padding-left: 33%; 
+}
+.footer {
+    background-color: rgb(61, 61, 61);
+    color: rgb(231, 231, 231);
+    padding: 10px;
+    text-align: center;
 }

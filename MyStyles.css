@@ -1,12 +1,18 @@
-.header {
+.defaultColor {
     background-color: rgb(61, 61, 61);
     color: rgb(231, 231, 231);
+}
+#myPic {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+#header {
     text-align: center;
     padding: 10px;
     height: 100px;
-    width: 100%;
 }
-.leftC {
+#leftC {
     font-size: x-small;
     border-right: solid;
     border-color:rgb(61, 61, 61);
@@ -15,7 +21,7 @@
     width: auto;
     padding: 15px;
 }
-.rightC {
+#rightC {
     font-family: Arial, Helvetica, sans-serif;
     text-align:left;
     font-size: x-large;
@@ -24,12 +30,12 @@
     float: center;
     padding-left: 28%;
 }
-.lowRC {
+#lowRC {
     height: auto;
     padding-left: 30%;
     margin-bottom: 10%;
 }
-.footer {
+#footer {
     position: relative;
     background-color: rgb(61, 61, 61);
     color: rgb(231, 231, 231);
